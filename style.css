@@ -1,0 +1,37 @@
+body, h1, ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background: hsl(233, 47%, 7%);
+    max-width: 1440px;
+    height: 800px;
+      
+}
+
+img {
+    width: 548px;
+    height: 448px;
+    border-radius: 0 5px 5px 0;
+}
+
+main {
+    display: flex;
+}
+
+.container {
+    width: 1116px;
+    height: 450px;
+    display: flex;
+    margin: 180px auto;
+    
+}
+
+.conteudo {
+    background: hsl(244, 38%, 16%);
+    width: 548px;
+    height: 448px;
+    border-radius: 5px 0 0 5px;
+}
