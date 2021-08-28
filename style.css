@@ -6,15 +6,14 @@ body, h1, ul, li {
 
 body {
     background: hsl(233, 47%, 7%);
-    max-width: 1440px;
-    height: 800px;
-      
+    
 }
 
-img {
+.imagem {
     width: 548px;
     height: 448px;
     border-radius: 0 5px 5px 0;
+
 }
 
 main {
@@ -35,3 +34,48 @@ main {
     height: 448px;
     border-radius: 5px 0 0 5px;
 }
+
+.titulo {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 60px;
+    max-width: 380px;
+    color: hsla(0, 0%, 100%, 0.78)
+}
+
+.titulo span {
+    color: hsl(277, 64%, 61%);
+}
+
+.paragrafo {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 350px;
+    padding: 0 60px;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: -25px;
+}
+
+.info {
+    display: flex;
+    padding: 60px;
+}
+
+.info li {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    margin-right: 60px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
+}
+
+.info span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font: bold;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.4;
+}
+
