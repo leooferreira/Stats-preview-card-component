@@ -1,19 +1,30 @@
-body, h1, ul, li {
+body, h1, ul, li, a{
     padding: 0;
     margin: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 body {
     background: hsl(233, 47%, 7%);
-    
 }
 
-.imagem {
-    width: 548px;
-    height: 448px;
+.overlay {
+    background-image: url(images/image-header-desktop.jpg);
+    width: 540px;
+    height: 446px;
     border-radius: 0 5px 5px 0;
+    position: relative;    
+}
 
+.overlay:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 540px;
+    height: 446px;
+    content: '';
+    background-color: hsla(277, 57%, 41%, 0.521);
 }
 
 main {
@@ -22,16 +33,15 @@ main {
 
 .container {
     width: 1116px;
-    height: 450px;
     display: flex;
-    margin: 180px auto;
+    margin: 100px auto; 
     
 }
 
 .conteudo {
     background: hsl(244, 38%, 16%);
-    width: 548px;
-    height: 448px;
+    width: 540px;
+    height: 446px;
     border-radius: 5px 0 0 5px;
 }
 
@@ -77,5 +87,19 @@ main {
     font: bold;
     color: hsl(0, 0%, 100%);
     line-height: 1.4;
+}
+
+.attribution {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+.attribution a {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(277, 64%, 61%);
 }
 
